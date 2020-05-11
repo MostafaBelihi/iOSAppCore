@@ -36,6 +36,13 @@
 		06D51885246986AC009A4A69 /* UIViewStyleHelperMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D51882246986AC009A4A69 /* UIViewStyleHelperMethods.swift */; };
 		06D51886246986AC009A4A69 /* BaseStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D51883246986AC009A4A69 /* BaseStyles.swift */; };
 		06D51887246986AC009A4A69 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D51884246986AC009A4A69 /* Styles.swift */; };
+		06D5188A2469961E009A4A69 /* MainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D518882469961E009A4A69 /* MainService.swift */; };
+		06D5188B2469961E009A4A69 /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D518892469961E009A4A69 /* MainRouter.swift */; };
+		06D5189224699EB1009A4A69 /* Quicksand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06D51890246996FD009A4A69 /* Quicksand-Bold.ttf */; };
+		06D5189324699EB4009A4A69 /* Quicksand-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06D5188F246996FD009A4A69 /* Quicksand-Light.ttf */; };
+		06D5189424699EB7009A4A69 /* Quicksand-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06D5188E246996FD009A4A69 /* Quicksand-Medium.ttf */; };
+		06D5189524699EB9009A4A69 /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06D51891246996FD009A4A69 /* Quicksand-Regular.ttf */; };
+		06D5189624699EBB009A4A69 /* Quicksand-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06D5188D246996FD009A4A69 /* Quicksand-SemiBold.ttf */; };
 		3137ED1C25914714CE2319D4 /* Pods_iOSAppCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2CC9AAC6DFED4132B5DF3EB /* Pods_iOSAppCore.framework */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +78,13 @@
 		06D51882246986AC009A4A69 /* UIViewStyleHelperMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewStyleHelperMethods.swift; sourceTree = "<group>"; };
 		06D51883246986AC009A4A69 /* BaseStyles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseStyles.swift; sourceTree = "<group>"; };
 		06D51884246986AC009A4A69 /* Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		06D518882469961E009A4A69 /* MainService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainService.swift; sourceTree = "<group>"; };
+		06D518892469961E009A4A69 /* MainRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		06D5188D246996FD009A4A69 /* Quicksand-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-SemiBold.ttf"; sourceTree = "<group>"; };
+		06D5188E246996FD009A4A69 /* Quicksand-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Medium.ttf"; sourceTree = "<group>"; };
+		06D5188F246996FD009A4A69 /* Quicksand-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Light.ttf"; sourceTree = "<group>"; };
+		06D51890246996FD009A4A69 /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Bold.ttf"; sourceTree = "<group>"; };
+		06D51891246996FD009A4A69 /* Quicksand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Regular.ttf"; sourceTree = "<group>"; };
 		55E872F8E49F3AE34E40E655 /* Pods-iOSAppCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSAppCore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSAppCore/Pods-iOSAppCore.debug.xcconfig"; sourceTree = "<group>"; };
 		A2CC9AAC6DFED4132B5DF3EB /* Pods_iOSAppCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSAppCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F48478940C18D39C59F1FF10 /* Pods-iOSAppCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSAppCore.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSAppCore/Pods-iOSAppCore.release.xcconfig"; sourceTree = "<group>"; };
@@ -130,6 +144,7 @@
 		06D5183E2469818E009A4A69 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				06D5188C246996F0009A4A69 /* Fonts */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -166,6 +181,8 @@
 		06D51844246981BE009A4A69 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				06D518892469961E009A4A69 /* MainRouter.swift */,
+				06D518882469961E009A4A69 /* MainService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -263,6 +280,18 @@
 			path = Core;
 			sourceTree = "<group>";
 		};
+		06D5188C246996F0009A4A69 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				06D51890246996FD009A4A69 /* Quicksand-Bold.ttf */,
+				06D5188F246996FD009A4A69 /* Quicksand-Light.ttf */,
+				06D5188E246996FD009A4A69 /* Quicksand-Medium.ttf */,
+				06D51891246996FD009A4A69 /* Quicksand-Regular.ttf */,
+				06D5188D246996FD009A4A69 /* Quicksand-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		3B2F83A6F2AB7BA7704BDB73 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -340,10 +369,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06D5189624699EBB009A4A69 /* Quicksand-SemiBold.ttf in Resources */,
 				06D5183724697544009A4A69 /* LaunchScreen.storyboard in Resources */,
 				06D5183424697544009A4A69 /* Assets.xcassets in Resources */,
+				06D5189424699EB7009A4A69 /* Quicksand-Medium.ttf in Resources */,
+				06D5189524699EB9009A4A69 /* Quicksand-Regular.ttf in Resources */,
 				06D5183224697542009A4A69 /* Main.storyboard in Resources */,
+				06D5189324699EB4009A4A69 /* Quicksand-Light.ttf in Resources */,
 				06D518772469868B009A4A69 /* ErrorVC.xib in Resources */,
+				06D5189224699EB1009A4A69 /* Quicksand-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,10 +437,12 @@
 				06D5185D24698646009A4A69 /* BaseService.swift in Sources */,
 				06D5187C24698696009A4A69 /* Language.swift in Sources */,
 				06D5187024698677009A4A69 /* Enums.swift in Sources */,
+				06D5188B2469961E009A4A69 /* MainRouter.swift in Sources */,
 				06D518662469866D009A4A69 /* ShowingLoadingIndicator.swift in Sources */,
 				06D51851246982DC009A4A69 /* MainVC.swift in Sources */,
 				06D51886246986AC009A4A69 /* BaseStyles.swift in Sources */,
 				06D518672469866D009A4A69 /* ShowingError.swift in Sources */,
+				06D5188A2469961E009A4A69 /* MainService.swift in Sources */,
 				06D5187B24698696009A4A69 /* LocaleManager.swift in Sources */,
 				06D518652469866D009A4A69 /* CheckingConnectionStatus.swift in Sources */,
 				06D518692469866D009A4A69 /* Scrollable.swift in Sources */,
