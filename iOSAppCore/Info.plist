@@ -29,6 +29,10 @@
 		<string>Quicksand-Medium.ttf</string>
 		<string>Quicksand-Regular.ttf</string>
 		<string>Quicksand-SemiBold.ttf</string>
+		<string>MarkaziText-Bold.ttf</string>
+		<string>MarkaziText-Medium.ttf</string>
+		<string>MarkaziText-Regular.ttf</string>
+		<string>MarkaziText-SemiBold.ttf</string>
 	</array>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>

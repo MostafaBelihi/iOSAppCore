@@ -91,7 +91,17 @@ enum AppFont {
 					case .semiBold: return "Quicksand-SemiBold";
 					case .bold: return "Quicksand-Bold";
 					case .extraBold: return "";
-			}
+				}
+
+			case .arabic:
+				switch self {
+					case .light: return "";
+					case .regular: return "MarkaziText-Regular";
+					case .medium: return "MarkaziText-Medium";
+					case .semiBold: return "MarkaziText-SemiBold";
+					case .bold: return "MarkaziText-Bold";
+					case .extraBold: return "";
+				}
 		}
 	}
 

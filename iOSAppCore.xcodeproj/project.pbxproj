@@ -43,6 +43,11 @@
 		06D5189424699EB7009A4A69 /* Quicksand-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06D5188E246996FD009A4A69 /* Quicksand-Medium.ttf */; };
 		06D5189524699EB9009A4A69 /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06D51891246996FD009A4A69 /* Quicksand-Regular.ttf */; };
 		06D5189624699EBB009A4A69 /* Quicksand-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06D5188D246996FD009A4A69 /* Quicksand-SemiBold.ttf */; };
+		06D5189B2469A4FE009A4A69 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 06D5189D2469A4FE009A4A69 /* Localizable.strings */; };
+		06D518A62469A7D6009A4A69 /* MarkaziText-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06D518A22469A78D009A4A69 /* MarkaziText-Bold.ttf */; };
+		06D518A72469A7D9009A4A69 /* MarkaziText-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06D518A42469A78D009A4A69 /* MarkaziText-Medium.ttf */; };
+		06D518A82469A7DC009A4A69 /* MarkaziText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06D518A52469A78D009A4A69 /* MarkaziText-Regular.ttf */; };
+		06D518A92469A7DF009A4A69 /* MarkaziText-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06D518A32469A78D009A4A69 /* MarkaziText-SemiBold.ttf */; };
 		3137ED1C25914714CE2319D4 /* Pods_iOSAppCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2CC9AAC6DFED4132B5DF3EB /* Pods_iOSAppCore.framework */; };
 /* End PBXBuildFile section */
 
@@ -85,6 +90,14 @@
 		06D5188F246996FD009A4A69 /* Quicksand-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Light.ttf"; sourceTree = "<group>"; };
 		06D51890246996FD009A4A69 /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Bold.ttf"; sourceTree = "<group>"; };
 		06D51891246996FD009A4A69 /* Quicksand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Regular.ttf"; sourceTree = "<group>"; };
+		06D518992469A4A9009A4A69 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		06D5189A2469A4A9009A4A69 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		06D5189C2469A4FE009A4A69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		06D5189E2469A506009A4A69 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		06D518A22469A78D009A4A69 /* MarkaziText-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MarkaziText-Bold.ttf"; sourceTree = "<group>"; };
+		06D518A32469A78D009A4A69 /* MarkaziText-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MarkaziText-SemiBold.ttf"; sourceTree = "<group>"; };
+		06D518A42469A78D009A4A69 /* MarkaziText-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MarkaziText-Medium.ttf"; sourceTree = "<group>"; };
+		06D518A52469A78D009A4A69 /* MarkaziText-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MarkaziText-Regular.ttf"; sourceTree = "<group>"; };
 		55E872F8E49F3AE34E40E655 /* Pods-iOSAppCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSAppCore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSAppCore/Pods-iOSAppCore.debug.xcconfig"; sourceTree = "<group>"; };
 		A2CC9AAC6DFED4132B5DF3EB /* Pods_iOSAppCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSAppCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F48478940C18D39C59F1FF10 /* Pods-iOSAppCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSAppCore.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSAppCore/Pods-iOSAppCore.release.xcconfig"; sourceTree = "<group>"; };
@@ -145,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				06D5188C246996F0009A4A69 /* Fonts */,
+				06D5189D2469A4FE009A4A69 /* Localizable.strings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -283,13 +297,33 @@
 		06D5188C246996F0009A4A69 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				06D518A02469A732009A4A69 /* MarkaziText */,
+				06D5189F2469A6CD009A4A69 /* Quicksand */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		06D5189F2469A6CD009A4A69 /* Quicksand */ = {
+			isa = PBXGroup;
+			children = (
 				06D51890246996FD009A4A69 /* Quicksand-Bold.ttf */,
 				06D5188F246996FD009A4A69 /* Quicksand-Light.ttf */,
 				06D5188E246996FD009A4A69 /* Quicksand-Medium.ttf */,
 				06D51891246996FD009A4A69 /* Quicksand-Regular.ttf */,
 				06D5188D246996FD009A4A69 /* Quicksand-SemiBold.ttf */,
 			);
-			path = Fonts;
+			path = Quicksand;
+			sourceTree = "<group>";
+		};
+		06D518A02469A732009A4A69 /* MarkaziText */ = {
+			isa = PBXGroup;
+			children = (
+				06D518A22469A78D009A4A69 /* MarkaziText-Bold.ttf */,
+				06D518A42469A78D009A4A69 /* MarkaziText-Medium.ttf */,
+				06D518A52469A78D009A4A69 /* MarkaziText-Regular.ttf */,
+				06D518A32469A78D009A4A69 /* MarkaziText-SemiBold.ttf */,
+			);
+			path = MarkaziText;
 			sourceTree = "<group>";
 		};
 		3B2F83A6F2AB7BA7704BDB73 /* Frameworks */ = {
@@ -353,6 +387,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 06D5181E24697542009A4A69;
 			productRefGroup = 06D5182824697542009A4A69 /* Products */;
@@ -369,13 +404,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06D518A72469A7D9009A4A69 /* MarkaziText-Medium.ttf in Resources */,
 				06D5189624699EBB009A4A69 /* Quicksand-SemiBold.ttf in Resources */,
 				06D5183724697544009A4A69 /* LaunchScreen.storyboard in Resources */,
 				06D5183424697544009A4A69 /* Assets.xcassets in Resources */,
 				06D5189424699EB7009A4A69 /* Quicksand-Medium.ttf in Resources */,
 				06D5189524699EB9009A4A69 /* Quicksand-Regular.ttf in Resources */,
+				06D518A92469A7DF009A4A69 /* MarkaziText-SemiBold.ttf in Resources */,
+				06D5189B2469A4FE009A4A69 /* Localizable.strings in Resources */,
 				06D5183224697542009A4A69 /* Main.storyboard in Resources */,
+				06D518A82469A7DC009A4A69 /* MarkaziText-Regular.ttf in Resources */,
 				06D5189324699EB4009A4A69 /* Quicksand-Light.ttf in Resources */,
+				06D518A62469A7D6009A4A69 /* MarkaziText-Bold.ttf in Resources */,
 				06D518772469868B009A4A69 /* ErrorVC.xib in Resources */,
 				06D5189224699EB1009A4A69 /* Quicksand-Bold.ttf in Resources */,
 			);
@@ -466,6 +506,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				06D5183124697542009A4A69 /* Base */,
+				06D518992469A4A9009A4A69 /* ar */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -474,8 +515,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				06D5183624697544009A4A69 /* Base */,
+				06D5189A2469A4A9009A4A69 /* ar */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		06D5189D2469A4FE009A4A69 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06D5189C2469A4FE009A4A69 /* en */,
+				06D5189E2469A506009A4A69 /* ar */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -485,6 +536,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -545,6 +597,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
