@@ -12,7 +12,7 @@
 		06D5183224697542009A4A69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06D5183024697542009A4A69 /* Main.storyboard */; };
 		06D5183424697544009A4A69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06D5183324697544009A4A69 /* Assets.xcassets */; };
 		06D5183724697544009A4A69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06D5183524697544009A4A69 /* LaunchScreen.storyboard */; };
-		06D51851246982DC009A4A69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D51850246982DC009A4A69 /* ViewController.swift */; };
+		06D51851246982DC009A4A69 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D51850246982DC009A4A69 /* MainVC.swift */; };
 		3137ED1C25914714CE2319D4 /* Pods_iOSAppCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2CC9AAC6DFED4132B5DF3EB /* Pods_iOSAppCore.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,7 +24,7 @@
 		06D5183324697544009A4A69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06D5183624697544009A4A69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06D5183824697544009A4A69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		06D51850246982DC009A4A69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		06D51850246982DC009A4A69 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		55E872F8E49F3AE34E40E655 /* Pods-iOSAppCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSAppCore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSAppCore/Pods-iOSAppCore.debug.xcconfig"; sourceTree = "<group>"; };
 		A2CC9AAC6DFED4132B5DF3EB /* Pods_iOSAppCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSAppCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F48478940C18D39C59F1FF10 /* Pods-iOSAppCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSAppCore.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSAppCore/Pods-iOSAppCore.release.xcconfig"; sourceTree = "<group>"; };
@@ -74,7 +74,6 @@
 				06D51841246981AF009A4A69 /* Views */,
 				06D5183F246981A4009A4A69 /* Styles */,
 				06D5183E2469818E009A4A69 /* Resources */,
-				06D51850246982DC009A4A69 /* ViewController.swift */,
 				06D5183324697544009A4A69 /* Assets.xcassets */,
 				06D5183524697544009A4A69 /* LaunchScreen.storyboard */,
 				06D5183824697544009A4A69 /* Info.plist */,
@@ -113,6 +112,7 @@
 		06D51843246981B9009A4A69 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				06D51850246982DC009A4A69 /* MainVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -325,7 +325,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06D51851246982DC009A4A69 /* ViewController.swift in Sources */,
+				06D51851246982DC009A4A69 /* MainVC.swift in Sources */,
 				06D5182B24697542009A4A69 /* AppDelegate.swift in Sources */,
 				06D5182D24697542009A4A69 /* SceneDelegate.swift in Sources */,
 			);
